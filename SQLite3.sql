@@ -12,7 +12,7 @@ SELECT * FROM profesor LIMIT 5;
 
 -- 5) 
 SELECT * FROM profesor
-WHERE apellido LIKE '%P%'
+WHERE apellido LIKE 'P%'
 
 -- 6)
 SELECT * from profesor 
