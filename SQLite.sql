@@ -6,7 +6,7 @@ turno VARCHAR(100) NOT NULL,
 PRIMARY KEY (codigo)
 );
 
-ALTER TABLE curso ADD cupo INt;
+ALTER TABLE curso ADD cupo INT;
 
 INSERT INTO curso (codigo, nombre, descripcion, turno, cupo) 
 VALUES (101, "Algoritmos","Algoritmos y Estructuras de Datos","Mañana",35);
